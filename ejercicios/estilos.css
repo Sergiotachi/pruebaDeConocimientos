@@ -1,11 +1,18 @@
+
 header{
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex-grow: auto;
     text-align: center;
     
 }
+
+.bloque{
+    display: flex;
+    flex-direction: row;
+}
+
+
 h1{
     background-color: cornflowerblue;
     width: 40%;
