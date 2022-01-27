@@ -7,9 +7,19 @@ header{
     
 }
 
+@media (min-width: 840px) {
+    header{
+        margin: 1%;
+    }
+    .lista{
+        float: right;
+        padding-left: 15px; 
+    }
+}
+
 .bloque{
     display: flex;
-    flex-direction: row;
+   
 }
 
 
@@ -45,3 +55,5 @@ thead tr th{
   background-color: rgb(122, 188, 241);
   border: white solid 1px;
 }
+
+
