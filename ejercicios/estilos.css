@@ -2,23 +2,16 @@
 header{
     display: flex;
     flex-direction: column;
+    grid-row: row;
     align-items: center;
     text-align: center;
     
 }
 
-@media (min-width: 840px) {
-    header{
-        margin: 1%;
-    }
-    .lista{
-        float: right;
-        padding-left: 15px; 
-    }
-}
 
 .bloque{
     display: flex;
+    grid-row: auto;
    
 }
 
