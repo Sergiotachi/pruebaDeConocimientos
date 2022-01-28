@@ -1,6 +1,7 @@
 
-header{
+header {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     grid-row: row;
     align-items: center;
@@ -9,16 +10,10 @@ header{
 }
 
 
-.bloque{
-    display: flex;
-    grid-row: auto;
-   
-}
-
-
 h1{
     background-color: cornflowerblue;
-    width: 40%;
+    text-align: center;
+    width: 100%;
     color: white;
 }
 
@@ -50,3 +45,11 @@ thead tr th{
 }
 
 
+.libreta{
+    font-weight: bold;
+    
+}
+
+.boligrafo{
+    font-weight: bold;
+}
