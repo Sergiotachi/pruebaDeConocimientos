@@ -1,12 +1,11 @@
 
-header {
+header{
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    grid-row: row;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    justify-content: center;
     align-items: center;
     text-align: center;
-    
 }
 
 
@@ -22,10 +21,10 @@ h3{
    
 }
 
-.lista ul li{
-    
+.lista1 ul li{
     list-style-type: circle;
 }
+
 
 thead tr th{
     border: white solid 1px;
