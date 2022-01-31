@@ -1,5 +1,1 @@
-"user strict"
 
-
-
-  
